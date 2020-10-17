@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlickInputProgramming_JS.Views.ExercisesPage"
+             xmlns:vm="clr-namespace:FlickInputProgramming_JS.ViewModels"
+             Title="{Binding Title}">
+
+    <ContentPage.BindingContext>
+        <vm:ExercisesViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <ScrollView x:Name="Scroll">
+            <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+
+                <Label 
+                            Grid.Row="1"
+                            Text="{Binding Question}"
+                        />
+
+                <Label 
+                            Grid.Row="2"
+                            Text="{Binding Text}"
+                            HorizontalOptions="Center"
+                    TextColor="Red"
+                    FontSize="Large"
+                        />
+
+                <Button 
+                            Grid.Row="3"
+                            Text="{Binding StartText}"
+                             Command="{Binding StartCommand}"
+                            BackgroundColor="#FAC9C5"
+                            TextColor="White"
+                            Margin="20,0"
+                        IsVisible="{Binding IsVisibleStartButton}"
+                        />
+                <Button 
+                            Grid.Row="3"
+                            Text="{Binding EndText}"
+                             Command="{Binding EndCommand}"
+                            BackgroundColor="#FAC9C5"
+                            TextColor="White"
+                            Margin="20,0"
+                        IsVisible="{Binding IsVisibleEndButton}"
+                        />
+                <Editor 
+                        Grid.Row="5"
+                        Text="{Binding Answer}"
+                        HeightRequest="500"
+                        BackgroundColor="Black"
+                        TextColor="Green"
+                        IsVisible="{Binding IsVisibleAnswerEditor}"
+                  IsTextPredictionEnabled ="False"
+                     IsSpellCheckEnabled ="False"
+                        />
+                <Frame Grid.RowSpan="6" IsVisible="{Binding IsVisibleResult}">
+                    <StackLayout>
+                        <WebView 
+                                Source="{Binding Result}"
+                                HeightRequest="1000"
+                                BackgroundColor="#F0EDDE"
+                            />
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>
