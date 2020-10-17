@@ -1,0 +1,2 @@
+# flickinputprogramming_js
+フリック入力プログラミング式_年齢測定
