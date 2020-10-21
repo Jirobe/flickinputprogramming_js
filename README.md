@@ -12,7 +12,7 @@ JavaScriptの問題です。時間計測機能付き
 
 ちなみに俺にはフリック入力でプログラミングは無理でした
 
-#解答例　FizzBuzz問題
+# 解答例　FizzBuzz問題
 
 ```
 function fizzBuzz(n){
@@ -23,7 +23,7 @@ function fizzBuzz(n){
 }
 ```
 
-#解答例　フィボナッチ数
+# 解答例　フィボナッチ数
 
 ```
 function fn(x){
