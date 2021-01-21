@@ -1,6 +1,8 @@
 # flickinputprogramming_js
 フリック入力プログラミング式_年齢測定
-
+  
+https://play.google.com/store/apps/details?id=com.chibaniansoftworks.flickinputprogramming_js  
+  
 「パソコンなんていらない」
 「フリック入力方が速いし」
 
