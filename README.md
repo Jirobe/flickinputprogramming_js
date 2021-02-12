@@ -3,13 +3,13 @@
   
 https://play.google.com/store/apps/details?id=com.chibaniansoftworks.flickinputprogramming_js  
   
-「パソコンなんていらない」
-「若者はフリック入力の方が速いし」
-
-と言われたという嘆きから生まれたアプリ
-
-ではフリック入力でプログラムをお願いします
-JavaScriptの問題です。時間計測機能付き
+「パソコンなんていらない」  
+「若者はフリック入力の方が速いし」  
+  
+と言われたという嘆きから生まれたアプリ  
+  
+ではフリック入力でプログラムをお願いします  
+JavaScriptの問題です。時間計測機能付き  
 
 # 解答例　FizzBuzz問題
 
