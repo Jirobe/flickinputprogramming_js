@@ -4,15 +4,12 @@
 https://play.google.com/store/apps/details?id=com.chibaniansoftworks.flickinputprogramming_js  
   
 「パソコンなんていらない」
-「フリック入力方が速いし」
+「若者はフリック入力の方が速いし」
 
-はーーー？
-じゃあ、フリック入力でプログラムしてみてくださいよ
-でっきるよなぁ？
+と言われたという嘆きから生まれたアプリ
 
+ではフリック入力でプログラムをお願いします
 JavaScriptの問題です。時間計測機能付き
-
-ちなみに作成者にはフリック入力でプログラミングは無理でした
 
 # 解答例　FizzBuzz問題
 
